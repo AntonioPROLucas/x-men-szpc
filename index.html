@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-MEN : Tela de Seleção</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/X-Men_logo.svg" alt="Logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> SELECIONE SEU PERSONAGEM</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="CICLOPE" data-description="Ele tem o poder de disparar rajadas oticas, mas não pode controlar.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem ciclope" >
+                </li>
+                <li class="personagem" id="gambit" data-name="GAMBIT" data-description="Este mutante ekegante e muito poderoso é capaz de manipular energia cinetica.">
+                    <img src="./src/imagens/card-gambit.jpg" alt="Personagem gambit">
+                </li>
+                <li class="personagem" id="wolverine" data-name="WOLVERINE" data-description='"Eu sou o melhor no que faço! Mas o que faço não é algo bom."'>
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem wolverine">
+                </li>
+                <li class="personagem" id="colossus" data-name="COLOSSUS" data-description="Os tecidos de seu corpos são feitos de um metal organico de composisão desconhecida, sendo muito forte e resistente.">
+                    <img src="./src/imagens/card-colossus.jpg" alt="Personagem colossus">
+                </li>
+                <li class="personagem" id="rogue" data-name="VAMPIRA" data-description="Esta mutante é capaz de absorver a vitalidade, memórias, e até poderes dos outros pelo contato com a pele.">
+                    <img src="./src/imagens/card-rogue.jpg" alt="Personagem rogue">
+                </li>
+                <li class="personagem" id="magneto" data-name="MAGNETO" data-description='"Eu serei o rei branco e o rei preto
+                cinza se preferir, pois aqueles que vêm o mundo em termos de preto e branco, bom e mal, estão fadados ao fracasso."'>
+                    <img src="./src/imagens/card-magneto.jpg" alt="Personagem magneto"'>
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">CICLOPE</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas oticas, mas não pode controlar.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
